@@ -3,6 +3,8 @@
 This is my final team project for the 'Introduction to Deep Learning' class at the University of Toronto, where I was an exchange student during the winter semester of 2024 (January to April).
 Here is my final report. Due to file size limitations, the final report will be uploaded in two parts.
 
+I concentrated on using the pre-trained VGG16 model. From my experience, utilizing VGG16 alone did not yield satisfactory results, so I incorporated an ASPP module, similar to the skip-connection in U-Net, to enhance performance. Additionally, selecting the appropriate loss function is crucial. Whil U-Net performs better with BCELoss, in my work with the pre-trained VGG16, MSELoss proved to be more effective.
+
 
 The order of the report is as follows:
 
