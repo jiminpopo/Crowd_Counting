@@ -5,6 +5,7 @@ Here is my final report. Due to file size limitations, the final report will be 
 
 I concentrated on using the pre-trained VGG16 model. From my experience, utilizing VGG16 alone did not yield satisfactory results, so I incorporated an ASPP module, similar to the skip-connection in U-Net, to enhance performance. Additionally, selecting the appropriate loss function is crucial. Whil U-Net performs better with BCELoss, in my work with the pre-trained VGG16, MSELoss proved to be more effective.
 
+The file "Crowd_Counting/mywork/Jimin.ipynb" documents my experiment. Experimentally, we discovered that a smaller batch size and a larger number of epochs generally yield better results. However, in my specific experiments, setting the number of epochs to 300 proved more effective than setting it to 600.
 
 The order of the report is as follows:
 
